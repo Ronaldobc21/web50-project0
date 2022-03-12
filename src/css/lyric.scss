@@ -1,0 +1,59 @@
+.color1{
+    color: rgb(230, 230, 14);
+}
+
+.color2{
+    color: rgb(241, 180, 10);
+}
+
+.color3{
+    color: rgb(29, 199, 14);
+}
+
+.color4{
+    color: rgb(219, 10, 10);
+}
+
+#color6{
+    color: rgb(6, 176, 243);
+}
+
+#color7{
+    color: rgb(8, 221, 36);
+}
+
+#colorp{
+
+    color: black;
+
+}
+
+#target1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    #target2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+}
+
+#target3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#courosel-im{
+    object-fit: fill;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+#courosel-im2{
+    object-fit: fill;  
+}

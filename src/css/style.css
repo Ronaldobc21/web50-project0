@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,300&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: #332;
+}
+
+.logo{
+    width: 45px;
+    border-radius: 10px;
+    box-shadow: 10px, 5px #332;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.Lyric{
+    font-weight: bold;
+    color: black;
+}
+
+.Perfil{
+    display: flex;
+    height: auto;
+    width: 150px;
+}
+
+.typewritter{
+    border-bottom: #332;
+}
+
+.container-title{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    padding-left: 1px;
+    padding-right: 1px;
+    font-family: Lato, sans-serif;
+  }
+  
+  .secondary__title{
+    position: relative;  
+  }
+  
+  .secondary__title::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-right: 1px solid #fff; 
+    animation: writte 1s infinite;
+  }
+  
+  @keyframes writte{
+    0%, 50%{
+      opacity: 0;
+    }
+    75%, 100%{
+      opacity: 1;
+    }
+  }
+  
+.typewritter-subtitle{
+    font-size: 1rem;
+    font-weight: 400;
+  }
+
+
+.footer, .contenido{
+    background: #0E2A47;
+    padding: 50px;
+}
+
+.Foot-img{
+  display: flex;
+  width: 45px;
+  border-radius: 10px;
+}
+
+.cont-button{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.foot-name{
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.github-button{
+  width: 45px;
+  border-radius: 10px;
+}
+
+.camp-button{
+  width: 45px;
+  height: 38px;
+  border-radius: 10px;
+}
+
+.code-button{
+  margin-left: -5px;
+  width: 45px;
+  height: 38px;
+  border-radius: 10px;
+  
+}
+.develop-cont{
+  display: flex;
+}
+
+.cont-img{
+  display: flex;
+  justify-content: left;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.Contt-h{
+  font-size: 25px;
+  font-style: oblique;
+  text-align: center;
+  margin-top: 130px;
+  margin-left: 120px;
+  margin-right: 120px;
+  text-align: justify;
+}
+
+.Contt-h{
+  font-weight: bold;
+}
+
+.Contt-l{
+  font-size: 25px;
+  font-style: oblique;
+  text-align: center;
+  margin-top: 130px;
+  margin-left: 120px;
+  margin-right: 120px;
+  text-align: justify;
+}
+
+
+@media only screen and (max-width: 947px) {
+  [class*=body] {
+    width: 100%;
+  }
+}
+
+@media(max-width:947px){
+  table{
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+  }
+}

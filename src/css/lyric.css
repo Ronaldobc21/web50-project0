@@ -1,0 +1,76 @@
+.color1 {
+  color: #e6e60e;
+}
+
+.color2 {
+  color: #f1b40a;
+}
+
+.color3 {
+  color: #1dc70e;
+}
+
+.color4 {
+  color: #db0a0a;
+}
+
+#color6 {
+  color: #06b0f3;
+}
+
+#color7 {
+  color: #08dd24;
+}
+
+#colorp {
+  color: black;
+}
+
+#target1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#target1 #target2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#target3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#courosel-im {
+  -o-object-fit: fill;
+     object-fit: fill;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+#courosel-im2 {
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+/*# sourceMappingURL=lyric.css.map */
